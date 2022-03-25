@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto:wght@100&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size: 62.5%;
+}
+
+header{
+	background-color:rgb(0, 0, 0) ;
+
+
+}
+ul{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: rgb(0, 0, 0);
+	padding: 5px;
+	margin: 0px 0px 5px 0px;
+}
+
+body h2, body h3,body h4{
+	font-family: cabin,sans-serif;
+	list-style-type: none;
+	color: rgb(0, 0, 0);
+}
+
+h5 a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-family: roboto,sans-serif;
+}
+
+body menu ul li a{
+	font-family: roboto, sans-serif;
+	text-decoration:none ;
+	color: white;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*footer{
+	background-color: grey;
+}*/
+section table tr td{
+	font-family: cabin,sans-serif;
+	font-size: 1.6rem;
+}
+section table tr th{
+	font-family: cabin,sans-serif;
+	font-size: 1.6rem;
+
+}
+fieldset label{
+	font-family: roboto, sans-serif;
+	font-size: 1.2rem;
+	font-weight: 1.5rem;
+}
+fieldset legend{
+	font-family: roboto,sans-serif;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+
+
+}
+.contenedor{
+	position: relative;
+	width: auto;
+	height: 200px;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+ 	flex-direction: row;
+    justify-content: safe flex-start;
+    box-sizing: border-box;
+	border: rgb(0, 0, 0) 2rem;
+	padding: 5px;
+	overflow: hidden;
+	overflow-x: scroll;
+	overflow-x: visible;
+	
+}
+
+
+.contenedor a{
+	position: relative;
+	padding: 5px 20px;
+	margin: 0px 2px;
+	text-decoration: none;
+}
+
+.cuadro{
+	width: 100px;
+	height: 100px;
+	background: black;
+}
+
+
+.tendencias_img--fluid{
+	width: 100%;
+}
+.tendencia{
+	background-color: rgb(0, 0, 0);
+}
+.submenu{
+	position: absolute;
+	display: block;
+	padding: 2px 10px 2px 0px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.navegation{
+	background-color: rgb(0, 0, 0);
+	width: auto;
+	height: 2rem;
+	margin-top: 0px;
+}
+.navegation ul li a:hover {
+	color: grey;
+	font-weight: 2rem;
+}
+
+
+.marca{
+	background-color: rgb(0, 0, 0);
+	position: sticky;
+	top: 0;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.marca-flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.registro{
+	display: flex;
+	flex-direction: column;
+	font-weight: bolder;
+	border: none;
+
+}
+.login{
+    align-items: center;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px 20px;
+	justify-content: center;
+
+}
+.submenu a{
+	position: absolute;
+	float:left;
+	display: none;
+}
+.menu li:hover .submenu li a{
+	display: block;
+	position: relative;
+}
+
+.navegation{
+ 		margin: auto;
+ 		float: center;
+}
+.logo{
+	float: left;
+}
+
+.user{
+	float: right;
+}
+
+.section{
+	position: relative;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: rgba(238, 238, 238, 1.0);
+}
+.pie{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+#footer{
+	grid-area: footer;
+}
+#margenes{
+	margin-top: 4rem;
+	margin-bottom: 0px;
+}
+
